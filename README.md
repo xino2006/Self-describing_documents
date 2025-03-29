@@ -3,5 +3,6 @@
 Markdownなどのプレーンテキストから生成される文書内部にソースコードを埋め込む。
 
 source --(compress)--> X --(base64)--> Z
-source + Z --(Pandoc)--> Word(Self-describing_documents)
+
+source + Z --(Pandoc)--> PDF/Word(Self-describing_documents)
 
